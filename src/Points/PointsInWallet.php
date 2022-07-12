@@ -51,6 +51,10 @@ class PointsInWallet extends BaseEntity
             throw new \InvalidArgumentException('Points already paid out.');
         }
 
+        if ($when < $this->date) {
+            throw new \InvalidArgumentException('Can`t pay out before start.');
+        }
+
         $this->whenPaidOut = $when;
     }
 
