@@ -1,0 +1,8 @@
+01 Assumptions
+
+I will ignore system except PointWallet. Logic of gaining points are out of the scope.
+All users have PointWallet as 1-1 relation.
+I assume some logic will call PointWalletService to add or subtract user points.
+
+There is no logic of subtracting a portion of the Points. All points of one action will be pay out in one moment of time.
+

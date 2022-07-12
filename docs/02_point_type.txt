@@ -1,0 +1,3 @@
+02 Point type
+
+Store point data in json form to easy implement other expiring strategy.
